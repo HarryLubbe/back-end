@@ -1,4 +1,4 @@
-const auth = require("../middleware/auth");
+const auth = require("../middelware/auth");
 const router = require("express").Router();
 const dataM = require("../models/dataModel");
 

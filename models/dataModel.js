@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const dataSchema = new mongoose.Schema({
-    file: {type: file, required: true},
+    file: {type: String, required: true},
     userId: {type: String, required: true},
 });
 
